@@ -449,10 +449,10 @@ This is text that is [red]{style="color:red;"}.
 . . .
 
 ```{.markdown filename="report.qmd"}
-![](dam.jpg){fig-alt="A photo of a dam in Detroit"}
+![](pharma.jpg){fig-alt="A pipette"}
 ```
 
-![](dam.jpg){fig-alt="A photo of a dam in Detroit"}
+![](pharma.jpg){fig-alt="A pipette"}
 
 ::: notes
 You can also apply styles to inline text by creating spans. Use square brackets to surround the text and curly bracketes for the style you would like.
