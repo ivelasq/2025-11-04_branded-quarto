@@ -1,0 +1,16 @@
+---
+title: "Creating [Polished, Branded]{.flow-steel} Documents with Quarto"
+subtitle: "R/Pharma 2025 | Isabella Velásquez"
+theme: [brand, styles.scss]
+format: revealjs
+title-slide-attributes:
+  data-background-image: /images/hero_right.png
+  data-background-color: "#EDF3F9"
+  data-background-size: contain
+  data-background-opacity: "0.5"
+  style: "text-align: left; right: 10%"
+  data-background-position: 100% center
+---
+
+## Introduction
+

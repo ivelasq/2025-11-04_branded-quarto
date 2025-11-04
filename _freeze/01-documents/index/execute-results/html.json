@@ -1,0 +1,15 @@
+{
+  "hash": "bf0a6660733461813223df6609d79822",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"01 - Quarto Documents\"\nbackgroundcolor: \"white\"\n---\n\n## Slides\n\n[View slides in full screen](01-slides.html)\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"01-slides.html\" height=\"420\" width=\"747\" style=\"border: 1px solid #2e3846;\"></iframe>\n```\n\n## Exercises\n\n### Exercise 1\n\n* Open `01-exercise-r.qmd` and run the first three code chunks (in order).\n* Preview the file.\n* Add a `#| include: false` chunk option to the first cell. Preview the file and note the differences.\n* In the YAML, add an `author` field and add your name. Preview the file.\n* Change `code-fold` to be `true`. Preview the file.\n* Edit the first paragraph to (1) make something bold by surrounding the text with `**` and (2) use inline code instead of hardcoded values for the number of dams:\n\n::: {.panel-tabset}\n### R\n\n\n::: {.cell}\n\n```{.r .cell-code}\n`r format(nrow(dat), big.mark = \",\")`\n```\n:::\n\n\n### Python\n\n\n::: {.cell}\n\n```{.python .cell-code}\n`{python} f\"{total_dams:,}\"`\n```\n:::\n\n\n:::\n\n\n\n\n### Exercise 2\n\n* Add an `important` callout box to \"Key Findings at a Glance\":\n\n```markdown\n::: {.callout-important}\n_text here_\n:::\n```\n\n* Change the `format` to `revealjs`. Preview the document.\n* Change the `format` to `pdf`. Preview the document.\n\n::: {.callout-note}\nRemoving `code-fold`, `code-summary`, and `embed-resources` is not required because these are `html` only features. However, I'd recommend removing them to keep your document tidy.\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

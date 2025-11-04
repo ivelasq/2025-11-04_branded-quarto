@@ -1,0 +1,44 @@
+#
+# _brand.yml for R/Pharma 2025
+#
+
+meta:
+  name: R/Pharma 2025
+  link:
+    home: https://rinpharma.com/
+    
+logo:
+  images:
+    icon:
+      path: https://rinpharma.com/images/logo-rinpharma.png
+      alt: R/Pharma icon.
+  small: https://rinpharma.com/images/logo-rinpharma.png
+
+color:
+  palette:
+    dark-blue: "#39729E"
+    light-blue: "#EDF3F9"
+    gray: "#464C52"
+    orange: "#FF7518"
+    pink: "#FCD299"
+    
+  background: white
+  foreground: gray
+  
+typography:
+  fonts:
+    - family: Source Sans Pro
+      source: google
+      weight: [400, 700]
+      
+  base:
+    family: Source Sans Pro
+    weight: 400
+
+  headings:
+    color: dark-blue
+    family: Source Sans Pro
+    weight: 700
+    
+  link:
+    color: dark-blue

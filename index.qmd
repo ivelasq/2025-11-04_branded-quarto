@@ -1,0 +1,25 @@
+---
+title: Creating Polished, Branded Documents with Quarto
+subtitle: R/Pharma 2025
+backgroundcolor: "white"
+---
+
+🗓️ Date: 04 November 2025
+
+🕗 Time: 9 - 11 CT
+
+## Abstract
+
+Join us for a hands-on, one-day workshop at R/Pharma, where we’ll explore the versatility of [Quarto](https://quarto.org) output formats. You will learn how to create dynamic websites, professional PDF documents, engaging presentations, and interactive dashboards using Quarto. This workshop highlights Quarto's powerful theming capabilities, including the new support for [brand.yml](https://posit-dev.github.io/brand-yml/), which ensures that your work maintains a professional and cohesive style across all formats.
+
+## Instructor
+
+[Isabella Velásquez](https://ivelasq.rbind.io) is a Senior Product Marketing Manager at Posit Software, where she develops strategic content to increase brand visibility and drive product adoption. She has a background in data analysis, reporting, and visualization and holds an MS in Analytics and a BA in Economics and East Asian Languages and Civilizations from the University of Chicago.
+
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/ivelasq/) [{{< fa brands github >}}](https://github.com/ivelasq) [{{< fa brands bluesky >}}](https://bsky.app/profile/ivelasq3.bsky.social) [{{< fa brands mastodon >}}](https://fosstodon.org/@ivelasq3) 
+
+------------------------------------------------------------------------
+
+![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+The website is based on a template by [Mine Çetinkaya-Rundel](https://mine-cr.com/), used with appreciation and adapted for this workshop.

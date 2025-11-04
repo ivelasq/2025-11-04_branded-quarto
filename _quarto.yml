@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Creating Polished, Branded Documents with Quarto"
+  description: "R/Pharma 2025"
+
+  repo-url: https://github.com/ivelasq/2025-11-04_branded-quarto
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  sidebar:
+    background: "#EDF3F9"
+    logo: images/logo.png
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: 00-introduction/index.qmd
+        text: 00 - Introduction
+      - href: 01-documents/index.qmd
+        text: 01 - Documents
+      - href: 02-projects/index.qmd
+        text: 02 - Projects
+      - href: 03-theming/index.qmd
+        text: 03 - Theming
+      - href: 04-publishing/index.qmd
+        text: 04 - Publishing
+      - href: 05-sharing/index.qmd
+        text: 05 - Creating and Sharing
+      - href: 06-customization/index.qmd
+        text: 06 - Extra Customization
+        
+  page-footer:
+    right: "This page is built with 🧡️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, Isabella Velásquez"
+    background: "#D1D9E3"
+
+format:
+  html:
+    theme:
+      light: [brand, styles.scss]
+    toc: true
+    linkcolor: "#39729E"
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Source Sans 3"
+
+execute:
+  freeze: auto
+  echo: true

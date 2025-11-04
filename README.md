@@ -1,1 +1,2 @@
-# 2025-11-04_branded-quarto
+# Creating Polished, Branded Documents with Quarto
+## R/Pharma 2025 Workshop

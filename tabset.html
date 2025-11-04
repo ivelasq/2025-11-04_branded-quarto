@@ -1,0 +1,33 @@
+<script type="text/javascript">
+  Reveal.on("fragmentshown", (event) => {
+    if (event.fragment.classList.contains("tabswitch")) {
+      tabs = Reveal.getCurrentSlide().querySelectorAll(".panel-tabset ul li a");
+
+      let selectedIndex = -1;
+
+      tabs.forEach((node, index) => {
+        if (node.getAttribute("aria-selected") === "true") {
+          selectedIndex = index;
+        }
+      });
+
+      tabs[selectedIndex + 1].click();
+    }
+  });
+
+  Reveal.on("fragmenthidden", (event) => {
+    if (event.fragment.classList.contains("tabswitch")) {
+      tabs = Reveal.getCurrentSlide().querySelectorAll(".panel-tabset ul li a");
+
+      let selectedIndex = -1;
+
+      tabs.forEach((node, index) => {
+        if (node.getAttribute("aria-selected") === "true") {
+          selectedIndex = index;
+        }
+      });
+
+      tabs[selectedIndex - 1].click();
+    }
+  });
+</script>
