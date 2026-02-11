@@ -434,7 +434,7 @@
     "href": "index.html#instructor",
     "title": "Creating Polished, Branded Documents with Quarto",
     "section": "Instructor",
-    "text": "Instructor\nIsabella Velásquez is a Senior Product Marketing Manager at Posit Software, where she develops strategic content to increase brand visibility and drive product adoption. She has a background in data analysis, reporting, and visualization and holds an MS in Analytics and a BA in Economics and East Asian Languages and Civilizations from the University of Chicago.\n   \n\n This work is licensed under a Creative Commons Attribution 4.0 International License.\nThe website is based on a template by Mine Çetinkaya-Rundel, used with appreciation and adapted for this workshop.",
+    "text": "Instructor\nIsabella Velásquez is a Senior Product Marketing Manager at Posit Software, where she develops strategic content to increase brand visibility and drive product adoption. She has a background in data analysis, reporting, and visualization and holds an MS in Analytics and a BA in Economics and East Asian Languages and Civilizations from the University of Chicago.",
     "crumbs": [
       "Home"
     ]
@@ -765,85 +765,85 @@
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-1",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-1",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\n.qmd file format with three components:\n\nYAML: Metadata\nText: Markdown\nCode: R, Python, Observable, and Julia\n\n\nWeave it all together, and you have beautiful, powerful, and useful outputs!\n\nA Quarto document contains three types of content: a YAML header, code chunks, and markdown text."
+    "section": "",
+    "text": ".qmd file format with three components:\n\nYAML: Metadata\nText: Markdown\nCode: R, Python, Observable, and Julia\n\n. . .\nWeave it all together, and you have beautiful, powerful, and useful outputs!\n\nA Quarto document contains three types of content: a YAML header, code chunks, and markdown text."
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-2",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-2",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nMetadata: YAML\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---"
+    "section": "",
+    "text": "Metadata: YAML\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---"
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-3",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-3",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nMetadata: YAML\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\n\n\n“Yet another markup language”\nMetadata of your document\nDemarcated by three dashes (---) on either end\nUses key-value pairs in the format key: value\n\n\n\nQuarto documents usually start with an (optional) YAML header demarcated by three dashes on either end. The basic syntax of YAML uses key-value pairs in the format key: value. It controls the output of the document and contain metadata for your document. YAML fields commonly found in headers of documents include metadata like author, subtitle, date as well as customization options like theme, fontcolor, fig-width, etc."
+    "section": "",
+    "text": "Metadata: YAML\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\n\n\n“Yet another markup language”\nMetadata of your document\nDemarcated by three dashes (---) on either end\nUses key-value pairs in the format key: value\n\n\n\n\nQuarto documents usually start with an (optional) YAML header demarcated by three dashes on either end. The basic syntax of YAML uses key-value pairs in the format key: value. It controls the output of the document and contain metadata for your document. YAML fields commonly found in headers of documents include metadata like author, subtitle, date as well as customization options like theme, fontcolor, fig-width, etc."
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-4",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-4",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nText: Markdown\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n\n\nMarkdown is a lightweight language for creating formatted text\nQuarto is based on Pandoc and uses its variation of markdown as its underlying document syntax\n\n\nMarkdown is a lightweight markup language for creating formatted text using a plain-text editor. Quarto uses markdown syntax for text."
+    "section": "",
+    "text": "Text: Markdown\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n. . .\n\nMarkdown is a lightweight language for creating formatted text\nQuarto is based on Pandoc and uses its variation of markdown as its underlying document syntax\n\n\nMarkdown is a lightweight markup language for creating formatted text using a plain-text editor. Quarto uses markdown syntax for text."
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-5",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-5",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nText: Markdown\n\n\n\n\n\n\n\nMarkdown syntax\nOutput\n\n\n\n\n*italics* and **bold**\nitalics and bold\n\n\nsuperscript^2^ / subscript~2~\nsuperscript2 / subscript2\n\n\n~~strikethrough~~\nstrikethrough\n\n\n`verbatim code`\nverbatim code"
+    "section": "",
+    "text": "Text: Markdown\n\n\n\n\n\n\n\nMarkdown syntax\nOutput\n\n\n\n\n*italics* and **bold**\nitalics and bold\n\n\nsuperscript^2^ / subscript~2~\nsuperscript2 / subscript2\n\n\n~~strikethrough~~\nstrikethrough\n\n\n`verbatim code`\nverbatim code"
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-6",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-6",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nText: Markdown\n\n\nDrug X achieved **superior** response and `survival outcomes`\n\n\n\nResults in:\nDrug X achieved superior response and survival outcomes"
+    "section": "",
+    "text": "Text: Markdown\n\n\nDrug X achieved **superior** response and `survival outcomes`\n\n\n\nResults in:\nDrug X achieved superior response and survival outcomes"
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-7",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-7",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nCode\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```"
+    "section": "",
+    "text": "Code\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```"
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-8",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-8",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nCode\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\n\n\nCode chunks begin and end with three backticks (usually)\nCode chunks are identified with a programming language in between {}\n\n\n\nCode chunks are identified with three backticks, the language in curly brackets, and can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk."
+    "section": "",
+    "text": "Code\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\n\n\nCode chunks begin and end with three backticks (usually)\nCode chunks are identified with a programming language in between {}\n\n\n\n\nCode chunks are identified with three backticks, the language in curly brackets, and can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk."
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-9",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-9",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nCode can include optional chunk options, in YAML style, identified by #| at the beginning of the line\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\n#| echo: false\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\nCode chunks can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk."
+    "section": "",
+    "text": "Code can include optional chunk options, in YAML style, identified by #| at the beginning of the line\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\n#| echo: false\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\nCode chunks can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk."
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-10",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-10",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\n\n\n\n\n\n\n\nOption\nDescription\n\n\n\n\neval\nEvaluate the code chunk\n\n\necho\nInclude the source code\n\n\nwarning\nInclude warnings\n\n\ninclude\nInclude code and results\n\n\n\nOther options: https://quarto.org/docs/computations/execution-options.html"
+    "section": "",
+    "text": "Option\nDescription\n\n\n\n\neval\nEvaluate the code chunk\n\n\necho\nInclude the source code\n\n\nwarning\nInclude warnings\n\n\ninclude\nInclude code and results\n\n\n\nOther options: https://quarto.org/docs/computations/execution-options.html"
   },
   {
     "objectID": "01-documents/01-slides.html#anatomy-of-a-quarto-document-11",
     "href": "01-documents/01-slides.html#anatomy-of-a-quarto-document-11",
     "title": "Documents",
-    "section": "Anatomy of a Quarto document",
-    "text": "Anatomy of a Quarto document\nInline code executes code within Markdown\n\n\nreport.qmd\n\n```{r}\np_value = 0.003\n```\n\nDrug X achieved superior response and survival \noutcomes with a statistically significant p-value \nfor Overall Survival (p = `r p_value`).\n\nResults in:\nDrug X achieved superior response and survival outcomes with a statistically significant p-value for Overall Survival (p = 0.003)."
+    "section": "",
+    "text": "Inline code executes code within Markdown\n\n\nreport.qmd\n\n```{r}\np_value = 0.003\n```\n\nDrug X achieved superior response and survival \noutcomes with a statistically significant p-value \nfor Overall Survival (p = `r p_value`).\n\nResults in:\nDrug X achieved superior response and survival outcomes with a statistically significant p-value for Overall Survival (p = 0.003)."
   },
   {
     "objectID": "01-documents/01-slides.html#your-turn",
     "href": "01-documents/01-slides.html#your-turn",
     "title": "Documents",
-    "section": "Your turn",
-    "text": "Your turn\n\nOpen 01-exercise.qmd and run the code chunks (in order).\nPreview the file.\nAdd a #| include: false chunk option to the first cell. Preview the file and note the differences.\nIn the YAML, add an author field and add your name. Preview the file.\nChange code-fold to be true. Preview the file.\nEdit the first paragraph to (1) make something bold by surrounding the text with ** and (2) use inline code instead of hardcoded values for the p-value:\n\n```{r}\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(p_value_os)`\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(hr_os)`\n```\n\n  \n    −\n    +\n \n 05:30\n \n\nPosit Cloud link: posit.cloud/content/11332810"
+    "section": "",
+    "text": "Open 01-exercise.qmd and run the code chunks (in order).\nPreview the file.\nAdd a #| include: false chunk option to the first cell. Preview the file and note the differences.\nIn the YAML, add an author field and add your name. Preview the file.\nChange code-fold to be true. Preview the file.\nEdit the first paragraph to (1) make something bold by surrounding the text with ** and (2) use inline code instead of hardcoded values for the p-value:\n\n```{r}\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(p_value_os)`\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(hr_os)`\n```\n\n  \n    −\n    +\n \n 05:30\n \n\nPosit Cloud link: posit.cloud/content/11332810"
   },
   {
     "objectID": "01-documents/01-slides.html#images-and-links",
@@ -892,14 +892,14 @@
     "href": "01-documents/01-slides.html#divs",
     "title": "Documents",
     "section": "Divs",
-    "text": "Divs\nCallout blocks\n\n\nreport.qmd\n\n:::{.callout-tip}\n\nNote that there are five types of callouts, including: \n`note`, `tip`, `warning`, `caution`, and `important`.\n\n:::\n\n\n\n\n\n\n\n\nTip\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
+    "text": "Divs\nCallout blocks\n\n\nreport.qmd\n\n:::{.callout-tip}\n\nNote that there are five types of callouts, including: \n`note`, `tip`, `warning`, `caution`, and `important`.\n\n:::\n\n. . .\n\n\n\n\n\n\nTip\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
   },
   {
     "objectID": "01-documents/01-slides.html#divs-1",
     "href": "01-documents/01-slides.html#divs-1",
     "title": "Documents",
     "section": "Divs",
-    "text": "Divs\nMultiple columns\n\n\nreport.qmd\n\n::: {layout-ncol=2}\n\n![](pharma.jpg)\n\nPhoto by &lt;a href=\"https://unsplash.com/@_louisreed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\"&gt;Louis Reed&lt;/a&gt; on &lt;a href=\"https://unsplash.com/photos/refill-of-liquid-on-tubes-pwcKF7L4-no?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\"&gt;Unsplash&lt;/a&gt;\n:::\n\n\n\n\n\n\n\n\nPhoto by Louis Reed on Unsplash"
+    "text": "Divs\nMultiple columns\n\n\nreport.qmd\n\n::: {layout-ncol=2}\n\n![](pharma.jpg)\n\nPhoto by &lt;a href=\"https://unsplash.com/@_louisreed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\"&gt;Louis Reed&lt;/a&gt; on &lt;a href=\"https://unsplash.com/photos/refill-of-liquid-on-tubes-pwcKF7L4-no?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\"&gt;Unsplash&lt;/a&gt;\n:::\n\n. . .\n\n\n\n\n\n\nPhoto by Louis Reed on Unsplash"
   },
   {
     "objectID": "01-documents/01-slides.html#divs-2",
@@ -913,7 +913,7 @@
     "href": "01-documents/01-slides.html#spans",
     "title": "Documents",
     "section": "Spans",
-    "text": "Spans\n\n\nreport.qmd\n\nThis is text that is [red]{style=\"color:red;\"}.\n\nThis is text that is red.\n\n\n\nreport.qmd\n\n![](dam.jpg){fig-alt=\"A photo of a dam in Detroit\"}\n\n\n\nYou can also apply styles to inline text by creating spans. Use square brackets to surround the text and curly bracketes for the style you would like."
+    "text": "Spans\n\n\nreport.qmd\n\nThis is text that is [red]{style=\"color:red;\"}.\n\nThis is text that is red.\n. . .\n\n\nreport.qmd\n\n![](pharma.jpg){fig-alt=\"A pipette\"}\n\n\n\nYou can also apply styles to inline text by creating spans. Use square brackets to surround the text and curly bracketes for the style you would like."
   },
   {
     "objectID": "01-documents/01-slides.html#changing-formats-1",
@@ -948,35 +948,35 @@
     "href": "01-documents/01-slides.html#structure",
     "title": "Documents",
     "section": "Structure",
-    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: html\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\nOn the left, we have a basic Quarto document with two sections. On the right, you can see how it’s rendered as a simple HTML document. This is what you’d get by default if you set the format to html."
+    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: html\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\n\nOn the left, we have a basic Quarto document with two sections. On the right, you can see how it’s rendered as a simple HTML document. This is what you’d get by default if you set the format to html."
   },
   {
     "objectID": "01-documents/01-slides.html#structure-1",
     "href": "01-documents/01-slides.html#structure-1",
     "title": "Documents",
     "section": "Structure",
-    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\nNow, let’s change the format to revealjs in the YAML header. See the difference on the right? The same content is now formatted as a slide deck, with each top-level heading (##) becoming a new slide. This demonstrates the core principle of Quarto presentations: you write your content, and Quarto formats it for you."
+    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\n\nNow, let’s change the format to revealjs in the YAML header. See the difference on the right? The same content is now formatted as a slide deck, with each top-level heading (##) becoming a new slide. This demonstrates the core principle of Quarto presentations: you write your content, and Quarto formats it for you."
   },
   {
     "objectID": "01-documents/01-slides.html#structure-2",
     "href": "01-documents/01-slides.html#structure-2",
     "title": "Documents",
     "section": "Structure",
-    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n# In the morning\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Breakfast\n\n- Eat eggs\n- Drink coffee\n\n# In the evening\n\n## Dinner\n\n- Eat spaghetti\n- Drink wine\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\nYou can also create a multi-level slide structure. By using a top-level heading (#), you create a new vertical section. Any sub-headings (##) below it will become a vertical sequence of slides. This is a great way to organize your presentation and create logical sections, just like you would with a regular document."
+    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n# In the morning\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Breakfast\n\n- Eat eggs\n- Drink coffee\n\n# In the evening\n\n## Dinner\n\n- Eat spaghetti\n- Drink wine\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n\n\n\n\nYou can also create a multi-level slide structure. By using a top-level heading (#), you create a new vertical section. Any sub-headings (##) below it will become a vertical sequence of slides. This is a great way to organize your presentation and create logical sections, just like you would with a regular document."
   },
   {
     "objectID": "01-documents/01-slides.html#structure-3",
     "href": "01-documents/01-slides.html#structure-3",
     "title": "Documents",
     "section": "Structure",
-    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n- Get in bed\n- Count sheep\n\n\n\n\nHere’s another way to create a new slide. The horizontal rule (—) acts as a slide break. This is useful for splitting up content on a single page, like a list, into multiple slides."
+    "text": "Structure\n\n\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\n---\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n- Get in bed\n- Count sheep\n\n\n\n\n\nHere’s another way to create a new slide. The horizontal rule (—) acts as a slide break. This is useful for splitting up content on a single page, like a list, into multiple slides."
   },
   {
     "objectID": "01-documents/01-slides.html#editing-slides",
     "href": "01-documents/01-slides.html#editing-slides",
     "title": "Documents",
     "section": "Editing slides",
-    "text": "Editing slides\nThe quarto-revealjs-editable extension allows for the repositioning and resizing of images and text divs directly in previewed slides.\n\n\nLearn more: quarto-revealjs-editable\n\n\nA great tool for fine-tuning your presentation is the quarto-revealjs-editable extension by Emil Hvitfeldt. It allows you to drag and drop text and images right on the slide preview to reposition and resize them. This saves a lot of time by eliminating the need to manually adjust positions in your source code."
+    "text": "Editing slides\nThe quarto-revealjs-editable extension allows for the repositioning and resizing of images and text divs directly in previewed slides.\n\n\n\n\n\n\nLearn more: quarto-revealjs-editable\n\n\nA great tool for fine-tuning your presentation is the quarto-revealjs-editable extension by Emil Hvitfeldt. It allows you to drag and drop text and images right on the slide preview to reposition and resize them. This saves a lot of time by eliminating the need to manually adjust positions in your source code."
   },
   {
     "objectID": "01-documents/01-slides.html#custom-revealjs-formats",
@@ -997,7 +997,7 @@
     "href": "01-documents/01-slides.html#page-layout",
     "title": "Documents",
     "section": "Page layout",
-    "text": "Page layout\nControl the size of the page (papersize), the page margins (margin), and the number of columns used for page content (columns):\n\n\n---\ntitle: Page Layout\nformat:\n  typst:\n    papersize: a5\n    margin:\n      x: 1cm\n      y: 1cm\n    columns: 2\n---\n\n\n\n\n\n\n\n\nLearn more: Page Layout\n\n\nOne of the great things about Typst is how easily you can customize your PDF’s appearance. You can control the page size, margins, and even the number of columns directly from your YAML. For example, to create a two-column, A5-sized document with one-centimeter margins, you can use this code.\n\n\nIf you want more granular control, you can define your margins for the horizontal and vertical directions separately. You can use standard units like inches or centimeters, as shown here."
+    "text": "Page layout\nControl the size of the page (papersize), the page margins (margin), and the number of columns used for page content (columns):\n\n\n---\ntitle: Page Layout\nformat:\n  typst:\n    papersize: a5\n    margin:\n      x: 1cm\n      y: 1cm\n    columns: 2\n---\n\n\n\n\n\n\n\n\n\nLearn more: Page Layout\n\n\nOne of the great things about Typst is how easily you can customize your PDF’s appearance. You can control the page size, margins, and even the number of columns directly from your YAML. For example, to create a two-column, A5-sized document with one-centimeter margins, you can use this code.\n\n\nIf you want more granular control, you can define your margins for the horizontal and vertical directions separately. You can use standard units like inches or centimeters, as shown here."
   },
   {
     "objectID": "01-documents/01-slides.html#typst-blocks",
@@ -1018,14 +1018,14 @@
     "href": "01-documents/01-slides.html#your-turn-1",
     "title": "Documents",
     "section": "Your turn",
-    "text": "Your turn\n\nAdd an important callout box to “Key Findings at a Glance”:\n\n::: {.callout-important}\n_text here_\n:::\n\nChange the format to revealjs. Preview the document.\nChange the format to typst. Preview the document.\n\n\n\n\n\n\n\nNote\n\n\nRemoving code-fold, code-summary, and embed-resources is not required because these are html only features. However, I’d recommend removing them to keep your document tidy.\n\n\n\n\nPosit Cloud link: posit.cloud/content/11332810"
+    "text": "Your turn\n\nAdd an important callout box to “Key Findings at a Glance”:\n\n::: {.callout-important}\n_text here_\n:::\n\nChange the format to revealjs. Preview the document.\nChange the format to typst. Preview the document.\n\n\n\n\n\n\n\nNote\n\n\n\nRemoving code-fold, code-summary, and embed-resources is not required because these are html only features. However, I’d recommend removing them to keep your document tidy.\n\n\n\nPosit Cloud link: posit.cloud/content/11332810"
   },
   {
     "objectID": "01-documents/01-slides.html#quarto-dashboards",
     "href": "01-documents/01-slides.html#quarto-dashboards",
     "title": "Documents",
     "section": "Quarto dashboards",
-    "text": "Quarto dashboards\n\nAn output format for creating dashboards from notebooks\n\n\n\nPublish groups of visualizations, tables, text together\n\n\n\n\nReleased in Quarto 1.4\n\n\n\n\n\n\n\n\n\nTip\n\n\nRun this command in your terminal to see what version of Quarto you are on:\n\n\nTerminal\n\nquarto --version"
+    "text": "Quarto dashboards\n\nAn output format for creating dashboards from notebooks\n\n. . .\n\nPublish groups of visualizations, tables, text together\n\n. . .\n\nReleased in Quarto 1.4\n\n. . .\n\n\n\n\n\n\nTip\n\n\n\nRun this command in your terminal to see what version of Quarto you are on:\n\n\nTerminal\n\nquarto --version"
   },
   {
     "objectID": "01-documents/01-slides.html#section",
@@ -1214,7 +1214,7 @@
     "href": "01-documents/01-slides.html#navigation-2",
     "title": "Documents",
     "section": "Navigation",
-    "text": "Navigation\n\n\nSee more options: https://quarto.org/docs/reference/projects/websites.html#navbar"
+    "text": "Navigation\n\n\n\n\n\n\nSee more options: https://quarto.org/docs/reference/projects/websites.html#navbar"
   },
   {
     "objectID": "01-documents/01-slides.html#cards-1",
@@ -1291,7 +1291,7 @@
     "href": "01-documents/01-slides.html#input-layout",
     "title": "Documents",
     "section": "Input Layout",
-    "text": "Input Layout\nThere are several ways to layout inputs within interactive dashboards:\n\nSidebars provide a collapsible vertical panel for inputs.\nToolbars provide a horizontal panel for inputs.\nCard Inputs provide a panel for card-specific inputs."
+    "text": "Input Layout\nThere are several ways to layout inputs within interactive dashboards:\n\n\nSidebars provide a collapsible vertical panel for inputs.\nToolbars provide a horizontal panel for inputs.\nCard Inputs provide a panel for card-specific inputs."
   },
   {
     "objectID": "01-documents/01-slides.html#input-layout-1",
@@ -1319,7 +1319,7 @@
     "href": "01-documents/01-slides.html#shiny",
     "title": "Documents",
     "section": "Shiny",
-    "text": "Shiny\n\nThe Shiny package provides an easy way to build web applications with R.\nQuarto dashboards can include embedded Shiny components (e.g. a plot with sliders that control its inputs) to add interactivity."
+    "text": "Shiny\n\n\nThe Shiny package provides an easy way to build web applications with R.\nQuarto dashboards can include embedded Shiny components (e.g. a plot with sliders that control its inputs) to add interactivity."
   },
   {
     "objectID": "01-documents/01-slides.html#non-interactive-dashboard",
@@ -1563,5 +1563,22 @@
     "crumbs": [
       "04 - Publishing"
     ]
+  },
+  {
+    "objectID": "index.html#recording",
+    "href": "index.html#recording",
+    "title": "Creating Polished, Branded Documents with Quarto",
+    "section": "Recording",
+    "text": "Recording\n\n\n\n This work is licensed under a Creative Commons Attribution 4.0 International License.\nThe website is based on a template by Mine Çetinkaya-Rundel, used with appreciation and adapted for this workshop.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "01-documents/01-slides.html",
+    "href": "01-documents/01-slides.html",
+    "title": "Documents",
+    "section": "",
+    "text": ".qmd file format with three components:\n\nYAML: Metadata\nText: Markdown\nCode: R, Python, Observable, and Julia\n\n. . .\nWeave it all together, and you have beautiful, powerful, and useful outputs!\n\nA Quarto document contains three types of content: a YAML header, code chunks, and markdown text.\n\n\n\n\nMetadata: YAML\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\n\n\n\nMetadata: YAML\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\n\n\n“Yet another markup language”\nMetadata of your document\nDemarcated by three dashes (---) on either end\nUses key-value pairs in the format key: value\n\n\n\n\nQuarto documents usually start with an (optional) YAML header demarcated by three dashes on either end. The basic syntax of YAML uses key-value pairs in the format key: value. It controls the output of the document and contain metadata for your document. YAML fields commonly found in headers of documents include metadata like author, subtitle, date as well as customization options like theme, fontcolor, fig-width, etc.\n\n\n\n\nText: Markdown\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n. . .\n\nMarkdown is a lightweight language for creating formatted text\nQuarto is based on Pandoc and uses its variation of markdown as its underlying document syntax\n\n\nMarkdown is a lightweight markup language for creating formatted text using a plain-text editor. Quarto uses markdown syntax for text.\n\n\n\n\nText: Markdown\n\n\n\n\n\n\n\nMarkdown syntax\nOutput\n\n\n\n\n*italics* and **bold**\nitalics and bold\n\n\nsuperscript^2^ / subscript~2~\nsuperscript2 / subscript2\n\n\n~~strikethrough~~\nstrikethrough\n\n\n`verbatim code`\nverbatim code\n\n\n\n\n\n\nText: Markdown\n\n\nDrug X achieved **superior** response and `survival outcomes`\n\n\n\nResults in:\nDrug X achieved superior response and survival outcomes\n\n\n\nCode\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\n\n\n\nCode\n\n\n\n\nreport.qmd\n\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\n\n\nCode chunks begin and end with three backticks (usually)\nCode chunks are identified with a programming language in between {}\n\n\n\n\nCode chunks are identified with three backticks, the language in curly brackets, and can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk.\n\n\n\n\nCode can include optional chunk options, in YAML style, identified by #| at the beginning of the line\n---\ntitle: \"Phase III Trial Summary for Novel Oncology Agent (Drug X)\"\nformat: html\n---\n\nDrug X achieved superior response and survival outcomes \nwith a statistically significant p-value for Overall \nSurvival (p = 0.003) and a favorable Hazard Ratio (0.65).\n\n```{r}\n#| echo: false\ngt(\n  demographics,\n  caption = \"Baseline Demographics (Intent-to-Treat Population)\"\n)\n```\n\nCode chunks can have optional chunk options identified by the hashpipe at the beginning of the line within the chunk.\n\n\n\n\n\n\n\n\n\n\n\nOption\nDescription\n\n\n\n\neval\nEvaluate the code chunk\n\n\necho\nInclude the source code\n\n\nwarning\nInclude warnings\n\n\ninclude\nInclude code and results\n\n\n\nOther options: https://quarto.org/docs/computations/execution-options.html\n\n\n\nInline code executes code within Markdown\n\n\nreport.qmd\n\n```{r}\np_value = 0.003\n```\n\nDrug X achieved superior response and survival \noutcomes with a statistically significant p-value \nfor Overall Survival (p = `r p_value`).\n\nResults in:\nDrug X achieved superior response and survival outcomes with a statistically significant p-value for Overall Survival (p = 0.003).\n\n\n\n\nOpen 01-exercise.qmd and run the code chunks (in order).\nPreview the file.\nAdd a #| include: false chunk option to the first cell. Preview the file and note the differences.\nIn the YAML, add an author field and add your name. Preview the file.\nChange code-fold to be true. Preview the file.\nEdit the first paragraph to (1) make something bold by surrounding the text with ** and (2) use inline code instead of hardcoded values for the p-value:\n\n```{r}\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(p_value_os)`\n`r data_summary %&gt;% slice_head(n = 1) %&gt;% pull(hr_os)`\n```\n\n  \n    −\n    +\n \n 05:30\n \n\nPosit Cloud link: posit.cloud/content/11332810"
   }
 ]

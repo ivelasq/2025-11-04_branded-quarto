@@ -16,7 +16,11 @@ Join us for a hands-on, one-day workshop at R/Pharma, where we’ll explore the 
 
 [Isabella Velásquez](https://ivelasq.rbind.io) is a Senior Product Marketing Manager at Posit Software, where she develops strategic content to increase brand visibility and drive product adoption. She has a background in data analysis, reporting, and visualization and holds an MS in Analytics and a BA in Economics and East Asian Languages and Civilizations from the University of Chicago.
 
-[{{< fa brands linkedin >}}](https://www.linkedin.com/in/ivelasq/) [{{< fa brands github >}}](https://github.com/ivelasq) [{{< fa brands bluesky >}}](https://bsky.app/profile/ivelasq3.bsky.social) [{{< fa brands mastodon >}}](https://fosstodon.org/@ivelasq3) 
+[{{< fa blog >}}](https://ivelasq.rbind.io) [{{< fa brands linkedin >}}](https://www.linkedin.com/in/ivelasq/) [{{< fa brands github >}}](https://github.com/ivelasq) [{{< fa brands bluesky >}}](https://bsky.app/profile/ivelasq3.bsky.social) [{{< fa brands mastodon >}}](https://fosstodon.org/@ivelasq3) 
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sVMgLKXJ4uc?si=QvVp4GqZk9UPlFyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ------------------------------------------------------------------------
 
